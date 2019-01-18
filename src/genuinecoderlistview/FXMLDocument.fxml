@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="395.0" prefWidth="461.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="genuinecoderlistview.FXMLDocumentController">
+   <children>
+      <JFXListView fx:id="listview" layoutX="32.0" layoutY="12.0" prefHeight="371.0" prefWidth="154.0" />
+      <JFXButton fx:id="button1" buttonType="RAISED" layoutX="289.0" layoutY="50.0" onAction="#toggleItem" prefHeight="38.0" prefWidth="154.0" style="-fx-background-color: #ffffff#ffffff;" text="Toggle Expantion">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="button2" buttonType="RAISED" layoutX="289.0" layoutY="116.0" onAction="#addNode" prefHeight="38.0" prefWidth="154.0" style="-fx-background-color: #ffffff#ffffff;" text="Add New Node">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+.button1:selected{
+    -fx-background-color: black;
+}
+.listView
+{
+    -fx-background-insets: 0.0;
+}
+.jfx-list-cell:hover{
+    -fx-background-color: red;
+}
+.jfx-popup-container{
+    -fx-background-color: white;
+}
+
